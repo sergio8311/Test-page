@@ -1,0 +1,35 @@
+body {
+	background: #DAECFF;
+	}
+.container {
+    width: 100%; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+   }
+header {
+	background: #52BCEC;
+	height: 60px;
+	position: relative;
+	padding: 5px;
+	}
+article {
+	margin-left: 300px; /* Отступ слева */
+    padding: 10px;
+}
+nav { 
+	margin-top: 10px;
+	float: left;
+	width: 300px; 
+	padding: 0 10px;
+}
+nav ul {
+	list-style-type: none;
+}
+footer {
+	text-align: center;
+	background: #52BCEC;
+	height: 60px;
+	position: relative;
+	padding:5px;
+	clear: both;
+ }
