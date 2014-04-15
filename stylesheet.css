@@ -6,6 +6,9 @@ body {
     margin: 0 auto; /* Выравнивание по центру */
     background: #f0f0f0; /* Цвет фона левой колонки */
 	position: relative;
+    width: 90%; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
    }
 header {
 	height: 60px;
@@ -19,8 +22,12 @@ header {
 	box-shadow: 0 0 2px rgba(0,0,0,0.5);
 	}
 header img {
+
 	margin-top:20px;
 	position: absolute;
+
+margin-top:20px;
+position: absolute;
 }
 article {
 	margin-left: 205px; /* Отступ слева */
@@ -47,6 +54,17 @@ article h2 {
 #img_how1 {
 	float: left;
 	padding:10px;
+ width: 400px;
+ height: 270px;
+ padding:10px;
+ margin-left: 500px;
+ -moz-box-sizing: border-box;
+ box-sizing:border-box;
+
+}
+#img_how1 {
+float: left;
+padding:10px;
 }
 article img {
 	height:250px;
@@ -85,6 +103,16 @@ article img {
 }
 .button1 a:hover, .button1 a:active {
 	background-color: #6495ED;
+ width: 400px;
+ height: 270px;
+ padding:10px;
+ -moz-box-sizing: border-box;
+ box-sizing:border-box;
+ float: left;
+}
+#img_how2 {
+margin-left: 500px;
+padding:10px;
 }
 nav { 
 	margin: 0;
@@ -117,6 +145,7 @@ nav ul li a:link, nav ul li a:visited {
 }
 nav ul li a:hover, nav ul li a:active {
 	background-color: #87CEEB;
+	background-color: #87CEEB;
 }
 footer {
 	text-align: center;
@@ -133,5 +162,6 @@ footer {
 	box-shadow: 0 0 2px rgba(0,0,0,0.5);
  }
  footer a {
+	text-decoration: none;
 	text-decoration: none;
  }
